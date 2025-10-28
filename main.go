@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	jws.Verify("maliciousToken", nil)
+	jws.Decode("someToken")
 
 	maliciousHTML := strings.Repeat("<template>", 100000)
 
