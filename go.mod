@@ -1,4 +1,4 @@
-module github.com/openshift-sustaining/arc-test-component-b
+module github.com/openshift-sustaining/arc-test-component-c
 
 go 1.20
 
